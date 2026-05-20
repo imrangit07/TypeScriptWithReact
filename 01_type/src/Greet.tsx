@@ -1,4 +1,8 @@
-const Greet = (props: { name: string }) => {
+type GreetProps = {
+    name: string
+}
+
+const Greet = (props: GreetProps) => {
     return (
         <>
             <h1>Hello, {props.name}</h1>
